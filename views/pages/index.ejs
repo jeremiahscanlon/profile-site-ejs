@@ -1,0 +1,48 @@
+<% include ../partials/head.ejs %>
+<% include ../partials/header.ejs %>
+
+<div class="parallax-container">
+    <div class="parallax">
+        <img src="/assets/images/table.jpg">
+    </div>
+    <div class="paralaxJumbo">
+        <h1>Javascript Programming and Web App Development</h1>
+        <p>Welcome to jeremiahscanlon.com! Feel free to take a look around. I hope you are able to find something of interest.</p>
+        <p><a class="waves-effect waves-light btn" href="#startHere" role="button">Start here</a></p>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col s12">
+            <div class="panel">
+                <h2 style="text-align:center">Run the report to find out what the dealio is ...</h2>
+                <div class="col s12">
+                    <div class="row">
+                        <div class="input-field col s4">
+                            <select id="selector">
+                                <option value="0" disabled>Filter by Class</option>
+                            </select>
+                        </div>
+                        <div class="input-field col s3">
+                            <input id="priceSearch" type="text" class="">
+                            <label for="priceSearch">Price greater than ... </label>
+                        </div>
+                        <div class="input-field col s3">
+                            <input id="qtySearch" type="text" class="">
+                            <label for="qtySearch">QTY In-stock greater than ... </label>
+                        </div>
+                        <div class="input-field col s2">
+                            <a class="waves-effect waves-light btn" id="searchSubmit">SUBMIT</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<% include ../partials/footer.ejs %>

@@ -1,0 +1,115 @@
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+.container {
+	width: 90%;
+}
+
+span.badge {
+	position: relative;
+	right:0;
+}
+
+nav {
+    background-color: #47493f;
+}
+
+nav .brand-logo {
+    display: block;
+}
+nav ul.left {
+    padding-left: 60px;
+}
+
+nav li img {
+	height: 20px;
+}
+
+.navImg {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.paralaxJumbo{
+    padding: 40px;
+}
+
+.paralaxJumbo p {
+    margin-bottom: 15px;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+footer.page-footer {
+    background-color: #47493f;
+}
+
+.btn, .btn-large {
+    background-color: #00a651;
+    color:#fff;
+    text-transform: lowercase;
+}
+
+nav form {
+  margin-left: 180px;
+  width: 300px;
+}
+
+#headerLogo {
+	max-height: 55px;
+	margin-top: 5px;
+}
+
+.card-panel {
+    background-color: #83cd29;
+    color: #009999;
+}
+
+h1 {
+	color: #83cd29;
+}
+
+h2 {
+	color: #83cd29;
+}
+
+.page-footer h5 {
+	color: #83cd29;
+}
+
+.page-footer p, .page-footer ul li a {
+	color: #fff;
+}
+
+footer li img {
+    height: 14px;
+}
+
+footer h2{
+    font-size: 2.5rem;
+}
+
+.smallSquareLogo {
+	max-width: 30px;
+	height: auto;
+}
+
+#selector  {
+	display: block;
+}
+
+.btn:hover, .btn-large:hover {
+	background-color: #83cd29;
+}
+
+.btn, .btn-large {
+    background-color: #47493f;
+    color: #fff;
+    text-transform: lowercase;
+}

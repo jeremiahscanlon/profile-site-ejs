@@ -1,0 +1,24 @@
+{
+  "name": "profile-site-ejs",
+  "version": "1.0.0",
+  "description": "Node development using Express for Server and routing with EJS for templating. Front end utilizing Materialize and jQuery.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremiahscanlon/profile-site-ejs.git"
+  },
+  "author": "Jeremiah Scanlon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeremiahscanlon/profile-site-ejs/issues"
+  },
+  "homepage": "https://github.com/jeremiahscanlon/profile-site-ejs#readme",
+  "dependencies": {
+    "ejs": "^2.4.2",
+    "express": "^4.13.4"
+  }
+}
