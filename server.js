@@ -40,6 +40,11 @@ app.get('/contact', function(req, res) {
     res.render('pages/contact');
 });
 
+// cube page
+app.get('/cube', function(req, res) {
+    res.render('pages/cube');
+});
+
 // ================================================================================
 // Start the server
 // ================================================================================

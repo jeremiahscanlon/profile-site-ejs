@@ -113,3 +113,80 @@ footer h2{
     color: #fff;
     text-transform: lowercase;
 }
+
+.hiddenContent {
+    display:none;
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    border: 2px solid black;
+}
+
+#top {
+    background-color: hotpink;
+}
+
+#bottom {
+    bottom: 0;
+    background-color: blueviolet;
+}
+
+#right {
+    right: 0;
+    top:0;
+    background-color: green;
+}
+
+#bottomRight {
+    bottom: 0;
+    right: 0;
+    background-color: steelblue;
+}
+
+#showr {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#hidr {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#showrBottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#hidrBottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#showrRight {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#hidrRight {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#showrBottomRight {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#hidrBottomRight {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

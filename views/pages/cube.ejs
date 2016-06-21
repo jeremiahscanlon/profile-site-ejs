@@ -1,0 +1,88 @@
+<% include ../partials/head.ejs %>
+
+<div class="main">
+    <div id="top" class="hiddenContent">
+        <div class="paralaxJumbo">
+            <h1>Javascript Programming and Web App Development</h1>
+            <p>Welcome to jeremiahscanlon.com! Feel free to take a look around. I hope you are able to find something of interest.</p>
+            <p><a class="waves-effect waves-light btn" href="#startHere" role="button">Start here</a></p>
+        </div>
+        <button id="hidr">Close Top</button>
+    </div>
+    <button id="showr">Top</button>
+
+
+    <div id="bottom" class="hiddenContent">
+        <div class="paralaxJumbo">
+            <p>Welcome to jeremiahscanlon.com! Feel free to take a look around. I hope you are able to find something of interest.</p>
+            <p><a class="waves-effect waves-light btn" href="#startHere" role="button">Start here</a></p>
+            <h1>Javascript Programming and Web App Development</h1>
+        </div>
+        <button id="hidrBottom">Close Bottom</button>
+    </div>
+    <button id="showrBottom">Bottom</button>
+
+    <div id="right" class="hiddenContent">
+        <div class="paralaxJumbo">
+            <p>Welcome to jeremiahscanlon.com! Feel free to take a look around. I hope you are able to find something of interest.</p>
+            <p><a class="waves-effect waves-light btn" href="#startHere" role="button">Start here</a></p>
+            <h1>Javascript Programming and Web App Development</h1>
+        </div>
+        <button id="hidrRight">Close Right</button>
+    </div>
+    <button id="showrRight">Right</button>
+
+    <div id="bottomRight" class="hiddenContent">
+        <div class="paralaxJumbo">
+            <p>Welcome to jeremiahscanlon.com! Feel free to take a look around. I hope you are able to find something of interest.</p>
+            <p><a class="waves-effect waves-light btn" href="#startHere" role="button">Start here</a></p>
+            <h1>Javascript Programming and Web App Development</h1>
+        </div>
+        <button id="hidrBottomRight">Close Bottom Right</button>
+    </div>
+    <button id="showrBottomRight">Bottom Right</button>
+</div>
+
+<script>
+    $( "#showr" ).click(function() {
+        $( "#top" ).show( "fast" );
+        $( "#showr" ).hide( "fast" );
+    });
+
+    $( "#hidr" ).click(function() {
+        $( "#top" ).hide( 1000 );
+        $( "#showr" ).show( 1000 );
+    });
+
+    $( "#showrBottom" ).click(function() {
+        $( "#bottom" ).show( "fast" );
+        $( "#showrBottom" ).hide( "fast" );
+    });
+
+    $( "#hidrBottom" ).click(function() {
+        $( "#bottom" ).hide( 1000 );
+        $( "#showrBottom" ).show( 1000 );
+    });
+
+    $( "#showrRight" ).click(function() {
+        $( "#right" ).show( "fast" );
+        $( "#showrRight" ).hide( "fast" );
+    });
+
+    $( "#hidrRight" ).click(function() {
+        $( "#right" ).hide( 1000 );
+        $( "#showrRight" ).show( 1000 );
+    });
+
+    $( "#showrBottomRight" ).click(function() {
+        $( "#bottomRight" ).show( "fast" );
+        $( "#showrBottomRight" ).hide( "fast" );
+    });
+
+    $( "#hidrBottomRight" ).click(function() {
+        $( "#bottomRight" ).hide( 1000 );
+        $( "#showrBottomRight" ).show( 1000 );
+    });
+</script>
+
+</body>
