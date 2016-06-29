@@ -1,87 +1,121 @@
 <% include ../partials/head.ejs %>
 
+<div class="stars"></div>
+<div class="twinkling"></div>
+
 <div class="main">
-    <div id="top" class="hiddenContent">
+    <div id="Top" class="hiddenContent animated">
+        <div class="innerContainer">
+            <div class="paralaxJumbo">
+                <h1>Javascript Programming and Web App Development</h1>
+                <p>Welcome to jeremiahscanlon.com! Feel free to take a look around. I hope you are able to find something of interest.</p>
+                <p><a class="waves-effect waves-light btn" href="#startHere" role="button">Start here</a></p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vehicula libero sed tortor ullamcorper tincidunt. Maecenas sit amet tellus eget magna finibus elementum non sit amet risus. Ut ornare scelerisque nunc vitae ultricies. Morbi vestibulum tortor ut justo volutpat posuere. Suspendisse aliquam ex sit amet sodales pulvinar. Aliquam et fermentum purus. Pellentesque accumsan felis eu purus dapibus fringilla.
+
+                    Proin augue elit, aliquam ac varius tempus, pellentesque efficitur magna. Donec aliquam ante vitae velit tincidunt eleifend. Fusce fringilla, ex a feugiat pretium, tellus erat vestibulum lectus, non rutrum nunc risus vitae magna. Integer est augue, tempus ut hendrerit at, aliquet at nibh. In facilisis neque id vestibulum molestie. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin semper lorem lorem, sit amet fermentum ex tincidunt in. Aliquam odio velit, posuere non faucibus sit amet, facilisis non lectus. Donec neque mi, eleifend rutrum nisl id, fringilla scelerisque turpis. Aliquam magna tortor, pretium nec elit et, viverra rhoncus arcu. Nullam bibendum cursus pretium.
+
+                    Nam vitae dui lacinia, laoreet eros vitae, condimentum est. Fusce tincidunt venenatis urna, id vehicula nunc varius id. Ut at sem non ligula faucibus vestibulum at quis nulla. Sed a urna nunc. Donec lacinia mollis arcu, nec ultricies magna molestie in. Vivamus mattis convallis mauris, a congue leo blandit efficitur. Duis nec ex erat. Praesent at purus a odio egestas lacinia et vel tortor. Aliquam sed bibendum ex, at pharetra metus.
+
+                    Suspendisse bibendum sapien a pharetra posuere. Nulla mollis congue malesuada. Quisque risus justo, rutrum convallis massa a, viverra sollicitudin urna. Nunc eget dui ornare risus posuere viverra a ut sem. Cras congue blandit lorem, ut pulvinar orci dapibus vitae. Nullam lobortis congue odio vitae vehicula. Etiam augue dolor, semper ut posuere ut, tristique auctor dolor. Maecenas sit amet orci ac erat fermentum luctus ac posuere urna. Nullam vel ipsum id massa condimentum sollicitudin. Donec in imperdiet turpis, nec molestie ligula. Phasellus scelerisque gravida augue. Pellentesque eget fringilla ante. Nulla tincidunt lorem id turpis dignissim tristique. Quisque maximus ipsum nunc, nec porta nunc cursus eu.
+
+                    Nam sed ornare tellus. Morbi sodales tortor nec massa fermentum, sit amet mattis ex pellentesque. Nullam vel massa ex. Cras quis orci viverra, sagittis dui a, cursus sem. Suspendisse vulputate lacus id dolor elementum, sit amet suscipit magna posuere. Nam rhoncus eros in nisl lacinia faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent at sodales dolor. Quisque feugiat velit non dui sodales, at malesuada nisl fringilla. Aliquam erat volutpat. Curabitur lobortis nisi sapien, nec malesuada massa interdum vel. Pellentesque ut eros turpis. Donec mollis, est id rutrum interdum, elit sem auctor neque, eu ornare lacus eros ac nisi. In nec pharetra tortor. Cras lacinia non arcu eu congue.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <button id="showrTop">Top</button>
+    <button id="hidrTop" style="display:none">Close Top</button>
+
+    <div id="Bottom" class="hiddenContent animated">
         <div class="paralaxJumbo">
-            <h1>Javascript Programming and Web App Development</h1>
             <p>Welcome to jeremiahscanlon.com! Feel free to take a look around. I hope you are able to find something of interest.</p>
             <p><a class="waves-effect waves-light btn" href="#startHere" role="button">Start here</a></p>
-        </div>
-        <button id="hidr">Close Top</button>
-    </div>
-    <button id="showr">Top</button>
-
-
-    <div id="bottom" class="hiddenContent">
-        <div class="paralaxJumbo">
-            <p>Welcome to jeremiahscanlon.com! Feel free to take a look around. I hope you are able to find something of interest.</p>
-            <p><a class="waves-effect waves-light btn" href="#startHere" role="button">Start here</a></p>
             <h1>Javascript Programming and Web App Development</h1>
         </div>
-        <button id="hidrBottom">Close Bottom</button>
     </div>
+
     <button id="showrBottom">Bottom</button>
+    <button id="hidrBottom" style="display:none">Close Bottom</button>
 
-    <div id="right" class="hiddenContent">
+    <div id="Right" class="hiddenContent animated">
         <div class="paralaxJumbo">
             <p>Welcome to jeremiahscanlon.com! Feel free to take a look around. I hope you are able to find something of interest.</p>
             <p><a class="waves-effect waves-light btn" href="#startHere" role="button">Start here</a></p>
             <h1>Javascript Programming and Web App Development</h1>
         </div>
-        <button id="hidrRight">Close Right</button>
     </div>
+
     <button id="showrRight">Right</button>
+    <button id="hidrRight" style="display:none">Close Right</button>
 
-    <div id="bottomRight" class="hiddenContent">
+    <div id="Left" class="hiddenContent animated">
         <div class="paralaxJumbo">
             <p>Welcome to jeremiahscanlon.com! Feel free to take a look around. I hope you are able to find something of interest.</p>
             <p><a class="waves-effect waves-light btn" href="#startHere" role="button">Start here</a></p>
             <h1>Javascript Programming and Web App Development</h1>
         </div>
-        <button id="hidrBottomRight">Close Bottom Right</button>
     </div>
-    <button id="showrBottomRight">Bottom Right</button>
+
+    <button id="showrLeft">Left</button>
+    <button id="hidrLeft" style="display:none">Close Left</button>
+
 </div>
 
+<script src="/assets/js/main.js"></script>
+
 <script>
-    $( "#showr" ).click(function() {
-        $( "#top" ).show( "fast" );
-        $( "#showr" ).hide( "fast" );
+
+    $( "#showrTop" ).click(function() {
+        $( "#Top" ).removeClass( "bounceOutUp" ).addClass( "bounceInDown" ).show();
+        $( "#showrTop" ).hide();
+        $( "#hidrTop" ).show();
     });
 
-    $( "#hidr" ).click(function() {
-        $( "#top" ).hide( 1000 );
-        $( "#showr" ).show( 1000 );
+    $( "#hidrTop" ).click(function() {
+        $( "#Top" ).removeClass( "bounceInDown" ).addClass( "bounceOutUp" );
+        $( "#hidrTop" ).hide();
+        $( "#showrTop" ).show();
     });
 
     $( "#showrBottom" ).click(function() {
-        $( "#bottom" ).show( "fast" );
-        $( "#showrBottom" ).hide( "fast" );
+        $( "#Bottom" ).removeClass( "bounceOutDown" ).addClass( "bounceInUp" ).show();
+        $( "#showrBottom" ).hide();
+        $( "#hidrBottom" ).show();
     });
 
     $( "#hidrBottom" ).click(function() {
-        $( "#bottom" ).hide( 1000 );
-        $( "#showrBottom" ).show( 1000 );
+        $( "#Bottom" ).removeClass( "bounceInUp" ).addClass( "bounceOutDown" );
+        $( "#hidrBottom" ).hide();
+        $( "#showrBottom" ).show();
+        $('#Bottom').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
+            $( '#Bottom' ).hide();
+        });
     });
 
     $( "#showrRight" ).click(function() {
-        $( "#right" ).show( "fast" );
-        $( "#showrRight" ).hide( "fast" );
+        $( "#Right" ).removeClass( "bounceOutRight" ).addClass( "bounceInRight" ).show();
+        $( "#showrRight" ).hide();
+        $( "#hidrRight" ).show();
     });
 
     $( "#hidrRight" ).click(function() {
-        $( "#right" ).hide( 1000 );
-        $( "#showrRight" ).show( 1000 );
+        $( "#Right" ).removeClass( "bounceInRight" ).addClass( "bounceOutRight" );
+        $( "#hidrRight" ).hide();
+        $( "#showrRight" ).show();
     });
 
-    $( "#showrBottomRight" ).click(function() {
-        $( "#bottomRight" ).show( "fast" );
-        $( "#showrBottomRight" ).hide( "fast" );
+    $( "#showrLeft" ).click(function() {
+        $( "#Left" ).removeClass( "bounceOutLeft" ).addClass( "bounceInLeft" ).show();
+        $( "#showrLeft" ).hide();
+        $( "#hidrLeft" ).show();
     });
 
-    $( "#hidrBottomRight" ).click(function() {
-        $( "#bottomRight" ).hide( 1000 );
-        $( "#showrBottomRight" ).show( 1000 );
+    $( "#hidrLeft" ).click(function() {
+        $( "#Left" ).removeClass( "bounceInLeft" ).addClass( "bounceOutLeft" );
+        $( "#hidrLeft" ).hide();
+        $( "#showrLeft" ).show();
     });
 </script>
 
